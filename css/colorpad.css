@@ -28,12 +28,22 @@ li{
 	margin-right: 20px;
 }
 
+form{
+	margin-left: 725px;
+	font-family: sans-serif;
+	font-size: 12px;
+	display: none;
+	
+}
+
+.modeR{
+	
+}
+
 #grid{
 	position: relative;
 	top: 20px;
 	left: 50px;
-
-
 }
 
 #container{
@@ -47,7 +57,6 @@ li{
 	
 }
 
-
 .cell{
 
 	background-color: #BABFBC;
@@ -55,6 +64,11 @@ li{
 	padding: 0px;
 	margin: 0px;
 	float: left;
+	
 
+}
 
+.shading{
+	opacity: 0.1;
+	background-color: #4ab579;
 }
